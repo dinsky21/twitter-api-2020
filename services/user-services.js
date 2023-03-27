@@ -211,6 +211,7 @@ const userServices = {
           email,
           password: hashedPassword || user.password,
           introduction
+
         })
           .then(user => {
             const userData = user.toJSON()
